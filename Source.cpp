@@ -23,13 +23,13 @@ choiceOne:
 	cin >> choiceOne;
 
 	if (choiceOne == 1) {
-		cout << "Your solders train well everyday!\n" << endl;
-		cout << "----------------Press any key to continue----------------" << endl;
+		cout << "\nYour solders train well everyday!\n" << endl;
+		cout << "----------------Press any key to continue----------------\n" << endl;
 		_getch();
 		goto choiceTwo;
 	}
 	else if (choiceOne == 2) {
-		cout << "-------------------------------------------" << endl;
+		cout << "-------------------------------------------\n" << endl;
 		cout << "\nYou sit on your butt the entire year!" << endl;
 		goto choiceThree;
 	}
@@ -41,12 +41,12 @@ choiceTwo:
 	int choiceTwo;
 	cout << "Your solders are hungry however you have no food, what do you do?" << endl;
 	cout << "Enter '1' to return home from training?" << endl;
-	cout << "Enter '2' to continue training?" << endl;
+	cout << "Enter '2' to continue training?\n" << endl;
 	_getch();
 	cin >> choiceTwo;
 
 	if (choiceTwo == 1) {
-		cout << "-------------------------------------------" << endl;
+		cout << "\n-------------------------------------------" << endl;
 		cout << "You return home fearing starvation!" << endl;
 		goto choiceFour;
 	}
@@ -63,7 +63,7 @@ choiceThree: //ending 1
 	cout << "-------------------------------------------" << endl;
 	cout << "This was a huge mistake because, little did you know, an enemy army was training hard and wipped out your kingdom without struggle!" << endl;
 	cout << "~~~~~~~~~~~~~~~~~~~~~GAME OVER~~~~~~~~~~~~~~~~~~~~~" << endl;
-	cout << "Ending 1/3";
+	cout << "Ending 1/4";
 		_getch();
 		return 1;
 
@@ -73,19 +73,23 @@ choiceThree: //ending 1
 		cout << "The king has ordered you to attack a neighboring nation!" << endl;
 		cout << "How do you wish to proceed?" << endl;
 		cout << "Enter '1' to attack from the front?" << endl;
-		cout << "Enter '2' to attack both flanks?" << endl;
+		cout << "Enter '2' to attack both flanks?\n" << endl;
 		cin >> choiceFour;
 		
 		if (choiceFour == 1) {
 			//ending 3
-			cout << "They defeated you and your army!" << endl;
+			cout << "\nThey defeated you and your army!" << endl;
 			cout << "~~~~~~~~~~~~~~~~~~~~~GAME OVER~~~~~~~~~~~~~~~~~~~~~" << endl;
-			cout << "Ending 3/3";
+			cout << "Ending 3/4";
 			_getch();
 			return 3;
 		}
 		else if (choiceFour == 2) {
-			cout << "Congrats, you win!!" << endl;
+			//ending 4
+			cout << "\nYou defeated their army and took over their nation!" << endl;
+			cout << "~~~~~~~~~~~~~~~~~~~~~GAME OVER~~~~~~~~~~~~~~~~~~~~~" << endl;
+			cout << "Ending 4/4";
+			_getch();
 			return 4;
 		}
 		else {
@@ -97,7 +101,7 @@ choiceThree: //ending 1
 		int choiceFive;
 		cout << "Your army has been wipped out by starvation and famine!" << endl;
 		cout << "~~~~~~~~~~~~~~~~~~~~~GAME OVER~~~~~~~~~~~~~~~~~~~~~" << endl;
-		cout << "Ending 2/3";
+		cout << "Ending 2/4";
 		_getch();
 		return 2;
 		
