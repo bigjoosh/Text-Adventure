@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\BetterCode\Path Game\Path Game\Source.cpp(16,10): warning C4102: 'choiceOne': unreferenced label
+D:\BetterCode\Path Game\Path Game\Source.cpp(63,6): warning C4101: 'choiceThree': unreferenced local variable
+D:\BetterCode\Path Game\Path Game\Source.cpp(100,7): warning C4101: 'choiceFive': unreferenced local variable
+D:\BetterCode\Path Game\Path Game\Source.cpp(173,7): warning C4101: 'choiceTen': unreferenced local variable
+  Path Game.vcxproj -> D:\BetterCode\Path Game\Debug\Path Game.exe
